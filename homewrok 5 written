@@ -1,0 +1,79 @@
+V5
+Step 1: 1386 x 2 + 441 = 3213
+Step 2: 441 x 3 + 63 = 1386
+Step 3: 63 x 7 = 441
+63 is the GCD of 3213 and 1386
+
+Step
+Euclid Equation
+q
+r
+Bezout Equation
+s
+t
+0
+3212 = 1386 x 2 + 441
+2
+441
+441 = 1 * 3213 - 2 * 1386
+1
+-2
+1
+1386 = 441 x 3 + 63 
+3
+63
+63 = 1386 * 1 - 441 * 3
+1
+3
+2
+441 = 63 x 7 + 0
+7
+0
+N/A
+
+
+
+
+
+
+V6
+
+Step
+Euclid Equation
+q
+r
+0
+13 = 5 x 2 + 3
+2
+3
+1
+5 = 3 x 1 + 2
+1
+2
+2
+3 = 2 x 1 + 1
+1
+1
+3
+2 = 2 x 1 + 0
+1
+0
+
+Finding a-1
+
+Given Equations 
+ax = 1 (mod p)
+1 = ax + py
+aa^-1 = 1(mod p)
+Step 1:
+3 = 2 x 1 + 1 → 1 = 3 - 2 x 1
+Step 2:
+1 = 3 - 2 x 1 → (2 = (5-3)) → 1 = 3 - (5 - 3)
+Step 3: 
+1 = 3 - (5 - 3) → 1 = 3 - 5 + 3 → 1 = 3 x 2 - 5
+Step 4: 
+1 = 3 x 2 - 5 → (3 = (13 - 5 x 2)) → 1 = 2 x (13 - 5 x 2) - 5
+Step 5: 
+1 = 2 x (13 - 5 x 2) - 5 →  1 = 13 x 2 - 5 x 5 → 1 = ax + py → x = 2 and p = -5
+Step 6: 
+-5(a^-1) = 1(mod 13) so a has to be -1/5
